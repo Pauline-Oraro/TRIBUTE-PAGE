@@ -1,0 +1,78 @@
+/*this entails the styling of heading 3*/
+h3{
+    /*this specifies what kind of border to display*/
+    border-style: solid dashed;/* solid is tor the top and bottom borders and dashed is for the left and right borders*/
+    /* this specifies that the border should be round by 10px*/
+    border-radius: 10px;
+    /*this specifies the width of the four sides of border using pre-defined value thick*/
+    border-width: thick;
+    /*this is a specific  border color for the top border, bottom border, right border and the left border respectively*/
+    border-color: darkkhaki darkgoldenrod darkmagenta darkolivegreen;
+}
+/*this entails the styling of the class image*/
+.image{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+/*this entails the styling of the body section*/
+body{
+    background-color: blanchedalmond;
+    font-family:cursive;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 1.5em;
+}
+/*this entails the styling of the heading 2*/
+h2{
+    /*the heading 2 predefined color is lightgreen*/
+    color: lightgreen;
+    display: block;
+}
+/*entails the styles used when the mouse is over the element*/
+h2:hover{
+    font-weight:100;
+    cursor:pointer;
+}
+/*this entails the styling of the class entry*/
+section.entry{
+    /*this signifies the type of border the class entry has*/
+    border-style: solid;
+    /*this specifies the width of the four sides of the border*/
+    border-width: 5px 20px;/* 5px for top and bottom 20px for the sides*/
+    /*this is a specific border color for the top and bottom border and right and left border respectively*/
+    border-color: blueviolet palevioletred;
+}
+hr.horizontal{
+        border-top: 3px;
+        color: black;
+        border-style: solid;
+}
+/*this entails the styling of the paragraph*/
+p{
+    /*this is a margin which specifies the space that created around the paragraph element and it is outside any defined border*/
+    margin: 15px;
+    /*sets the top margin*/
+    margin-top: 10px;
+    /*sets the bottom margin*/
+    margin-bottom: 10px;
+    /*sets the left margin*/
+    margin-left: 5px;
+    /*sets the right margin*/
+    margin-right: 5px;
+    font-size: 1pc;
+}
+/*this entails the styling  together the heading 3 and class entry */
+h3, section.entry{
+    /*this specifies a padding which means a space was created on the listed elements because they are inside a defined border*/
+    padding: 10px;
+    /*sets the top padding*/
+    padding-top: 5px;
+    /*sets the bottom padding*/
+    padding-bottom: 5px;
+    /*sets the left padding*/
+    padding-left: 12px;
+    /*sets the right padding*/
+    padding-right: 12px;
+}
