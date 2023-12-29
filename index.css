@@ -9,6 +9,7 @@ h3{
     /*this is a specific  border color for the top border, bottom border, right border and the left border respectively*/
     border-color: darkkhaki darkgoldenrod darkmagenta darkolivegreen;
 }
+
 /*this entails the styling of the class image*/
 .image{
     width: 80%;
@@ -16,6 +17,7 @@ h3{
     display: flex;
     justify-content: center;
 }
+
 /*this entails the styling of the body section*/
 body{
     background-color: blanchedalmond;
@@ -24,17 +26,20 @@ body{
     text-align: center;
     font-size: 1.5em;
 }
+
 /*this entails the styling of the heading 2*/
 h2{
     /*the heading 2 predefined color is lightgreen*/
     color: lightgreen;
     display: block;
 }
+
 /*entails the styles used when the mouse is over the element*/
 h2:hover{
     font-weight:100;
     cursor:pointer;
 }
+
 /*this entails the styling of the class entry*/
 section.entry{
     /*this signifies the type of border the class entry has*/
@@ -44,11 +49,13 @@ section.entry{
     /*this is a specific border color for the top and bottom border and right and left border respectively*/
     border-color: blueviolet palevioletred;
 }
+
 hr.horizontal{
         border-top: 3px;
         color: black;
         border-style: solid;
 }
+
 /*this entails the styling of the paragraph*/
 p{
     /*this is a margin which specifies the space that created around the paragraph element and it is outside any defined border*/
@@ -63,7 +70,8 @@ p{
     margin-right: 5px;
     font-size: 1pc;
 }
-/*this entails the styling  together the heading 3 and class entry */
+
+/*this entails the styling of heading 3 and class entry */
 h3, section.entry{
     /*this specifies a padding which means a space was created on the listed elements because they are inside a defined border*/
     padding: 10px;
