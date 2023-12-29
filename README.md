@@ -6,18 +6,18 @@ style a simple page with colors that will attract users.
 
 ![tribute page](https://github.com/Pauline-Oraro/TRIBUTE-PAGE/blob/master/ter.PNG?raw=true)
 
-#Demo
+# Demo
 [The Demo](https://pauline-oraro.github.io/TRIBUTE-PAGE/)
 
-#Features
+# Features
 - responsive design.
 - formatting.
 - images.
 - links.
 
-#Technologies used
+# Technologies used
 - HTML.
 - CSS.
 
-#Contact
+# Contact
 Feel free to reach me at my email [hiltrapauline@gmail.com](hiltrapauline@gmail.com)
